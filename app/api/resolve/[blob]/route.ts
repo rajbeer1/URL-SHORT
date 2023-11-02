@@ -2,7 +2,8 @@
 import { NextRequest,NextResponse } from "next/server";
 import shortid from 'shortid'
 import { useRouter } from 'next/navigation';
-import prisma from "@/prisma/client";
+import { PrismaClient } from '../../../../generated'
+const prisma = new PrismaClient()
 
 
 export  async function GET(req:NextRequest,{params}:{params:{blob :string}}){
