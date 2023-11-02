@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'URL_SHORTEN',
-  description: 'SHORTEN YOUR URLs',
+  description: 'SHORTEN YOUR URLs fast',
 }
 
 export default function RootLayout({
